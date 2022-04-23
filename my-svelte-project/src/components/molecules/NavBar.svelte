@@ -1,7 +1,6 @@
 <script>
 
-  let active=false;
-
+let active = false;
   function handleToggle () {
     console.log(active);
 		active = !active;
@@ -15,14 +14,14 @@
   <div>
     <h1 class="brand-title">LOGO</h1>
   </div>
-  <a class="toggle-button" href="#" on:click="{()=>handleToggle()}">
+  <a class="toggle-button"  href="#" on:click={()=>handleToggle()} >
   <span class="bar"></span>
   <span class="bar"></span>
   <span class="bar"></span>
   </a>
   
-  {#if active}
-  <div class="navbar-links">
+
+  <div class="navbar-links" class:active={active}>
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/">About</a></li>
@@ -30,7 +29,7 @@
     </ul>
 
   </div>
-  {/if}
+
 
 </nav>
 
@@ -101,7 +100,7 @@
       align-items: flex-start;
     }
     .navbar-links{
-      display: flex;
+      display: none;
       width: 100%;
     }
   
