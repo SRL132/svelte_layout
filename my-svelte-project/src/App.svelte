@@ -1,13 +1,14 @@
-<script>
+<script  src="https://unpkg.com/aos@next/dist/aos.js">
 	export let name;
+	import Header from "./components/organisms/Header.svelte";
+	import Footer from "./components/organisms/Footer.svelte";
 </script>
-
-<main>
+<Header/>
+<main>	
 	<h1>Hello {name}!</h1>
-	<h2>Header 2</h2>
-	<h3>Header 3</h3>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
+<Footer/>
 
 <style>
 	body {
@@ -35,3 +36,4 @@
 		}
 	}
 </style>
+
