@@ -2,11 +2,11 @@
 	export let name;
 	import Header from "./components/organisms/Header.svelte";
 	import Footer from "./components/organisms/Footer.svelte";
+	import Cloud from "./components/organisms/Cloud.svelte";
 </script>
 <Header/>
 <main>	
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Cloud/>
 </main>
 <Footer/>
 
