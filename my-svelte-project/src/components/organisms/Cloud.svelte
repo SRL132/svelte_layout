@@ -1,6 +1,4 @@
-<script>
 
-</script>
 <section class="block block--dark block--skewed-left hero">
     <div class="container grid grid--1x2">
         <header class="block__header hero__content">

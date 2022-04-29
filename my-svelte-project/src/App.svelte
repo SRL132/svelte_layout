@@ -3,10 +3,14 @@
 	import Header from "./components/organisms/Header.svelte";
 	import Footer from "./components/organisms/Footer.svelte";
 	import Cloud from "./components/organisms/Cloud.svelte";
+	import DomainSection from "./components/organisms/DomainSection.svelte";
+	import Plans from "./components/organisms/Plans.svelte";
 </script>
 <Header/>
 <main>	
 	<Cloud/>
+	<DomainSection/>
+	<Plans/>
 </main>
 <Footer/>
 
