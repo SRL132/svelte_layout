@@ -121,4 +121,36 @@
     text-align-last: start !important;
         
     }
+
+    .card-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
+        align-items: flex-start;
+    }
+
+/* 
+zoom image
+<div class=card card card-shadow">
+    <div class="card-header card-image">
+        <img/>
+    </div>
+
+.card-header .card-image{
+    overflow:hidden;
+}
+.card-header .card-image>img{
+    display:block;
+    width:100%;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    max-height:200px;
+    object-position:center;
+    transition: 200ms transform ease-in-out;
+}
+
+.card:hover> .card-image>img{
+    transform:scale(1.1);
+}
+*/
 </style>

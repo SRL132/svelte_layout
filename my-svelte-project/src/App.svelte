@@ -5,12 +5,16 @@
 	import Cloud from "./components/organisms/Cloud.svelte";
 	import DomainSection from "./components/organisms/DomainSection.svelte";
 	import Plans from "./components/organisms/Plans.svelte";
+	import Host from "./components/organisms/Host.svelte";
+	import ControlPanel from "./components/molecules/ControlPanel.svelte";
 </script>
 <Header/>
 <main>	
 	<Cloud/>
 	<DomainSection/>
 	<Plans/>
+	<Host/>
+	<ControlPanel/>
 </main>
 <Footer/>
 
